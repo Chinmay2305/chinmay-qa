@@ -1,4 +1,4 @@
-### Chinmay Agrawal — QA Portfolio
+## Chinmay Agrawal — QA Portfolio
 
 A responsive, dark-themed portfolio built with plain HTML, CSS, and JavaScript. No build tools or frameworks are required.
 
