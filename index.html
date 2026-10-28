@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chinmay Agrawal's QA engineering portfolio: software testing, automation, API testing, SQL and AI quality.">
+  <meta name="theme-color" content="#0b1120">
+  <title>Chinmay Agrawal | QA Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Chinmay Agrawal home"><span class="brand-mark">CA</span><span>Chinmay Agrawal<span class="brand-sub">QA ENGINEERING</span></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO QA OPPORTUNITIES <span class="eyebrow-line"></span></div>
+        <h1>Quality isn't an accident.<br><span>It's engineered.</span></h1>
+        <p class="hero-intro">I'm <strong>Chinmay Agrawal</strong>, a QA professional with 8 years of experience helping teams ship reliable software through thoughtful testing, automation, and a quality-first mindset.</p>
+        <div class="hero-tags"><span>Manual & Functional Testing</span><span>Test Automation</span><span>API & AI Testing</span></div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="assets/Chinmay-Agrawal-Resume.pdf" download>Download résumé <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="micro-note">Replace the sample résumé file with your current PDF before publishing.</p>
+      </div>
+      <div class="hero-visual" aria-label="Quality engineering illustration">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core-card">
+          <div class="core-top"><span class="window-dots"><i></i><i></i><i></i></span><span class="mono">quality_check.js</span><span class="live-pill">READY</span></div>
+          <div class="code-lines" aria-hidden="true">
+            <p><span class="code-muted">01</span> <span class="code-purple">test</span>(<span class="code-green">'quality matters'</span>, <span class="code-blue">async</span> () =&gt; {</p>
+            <p><span class="code-muted">02</span> &nbsp; <span class="code-purple">await</span> validateRequirements();</p>
+            <p><span class="code-muted">03</span> &nbsp; <span class="code-purple">await</span> testCriticalFlows();</p>
+            <p><span class="code-muted">04</span> &nbsp; <span class="code-purple">await</span> verifyDataIntegrity();</p>
+            <p><span class="code-muted">05</span> &nbsp; <span class="code-blue">expect</span>(quality).toBe(<span class="code-green">'reliable'</span>);</p>
+            <p><span class="code-muted">06</span> });<span class="cursor"></span></p>
+          </div>
+          <div class="core-footer"><span><i class="check-icon">✓</i> Test thinking: ON</span><span class="mono">CI / QA</span></div>
+        </div>
+        <div class="float-chip chip-top"><span class="chip-icon blue">✓</span><span><b>Risk-based</b><small>Test coverage</small></span></div>
+        <div class="float-chip chip-bottom"><span class="chip-icon purple">⌘</span><span><b>Automation</b><small>Repeatable checks</small></span></div>
+        <div class="visual-caption mono">THINK · TEST · IMPROVE</div>
+      </div>
+      <div class="hero-bottom"><span class="mono">BASED IN INDIA · WORKING GLOBALLY</span><a href="#about">SCROLL TO EXPLORE <span>↓</span></a></div>
+    </section>
+
+    <section class="section section-bordered" id="about">
+      <div class="container two-column">
+        <div><p class="section-kicker">01 / ABOUT</p><h2>Curious by nature.<br><span>Thorough by practice.</span></h2></div>
+        <div class="about-copy"><p>I approach quality as more than finding defects. It means understanding user needs, asking better questions, identifying risk early, and giving teams useful evidence to make release decisions.</p><p>My experience spans manual and functional testing, UI automation, API validation, SQL-based data checks, and testing AI-driven workflows. I enjoy building repeatable processes while keeping real user behaviour at the centre.</p><div class="principles"><div><span>01</span><b>Understand the risk</b></div><div><span>02</span><b>Test with purpose</b></div><div><span>03</span><b>Communicate clearly</b></div></div></div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><div><p class="section-kicker">02 / TOOLKIT</p><h2>Skills & technologies</h2></div><p>Tools support good testing judgment.<br>Here are the areas I work with.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>Testing foundations</h3><p>Manual testing, functional testing, regression, exploratory testing, test design, defect reporting, SDLC / STLC.</p><div class="skill-tags"><span>Test cases</span><span>Risk analysis</span><span>Bug triage</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>UI automation</h3><p>Selenium with Java/Python and Playwright; reusable page objects, assertions, and regression checks.</p><div class="skill-tags"><span>Selenium</span><span>Playwright</span><span>TestNG</span><span>POM</span></div></article>
+        <article class="skill-card"><div class="skill-icon">{ }</div><h3>API & backend</h3><p>REST API validation, request/response checks, status and schema assertions, backend and database verification.</p><div class="skill-tags"><span>Postman</span><span>REST API</span><span>SQL</span></div></article>
+        <article class="skill-card"><div class="skill-icon">↗</div><h3>Performance & mobile</h3><p>Performance test concepts and tooling, plus mobile test automation experience.</p><div class="skill-tags"><span>JMeter</span><span>Appium</span></div></article>
+        <article class="skill-card"><div class="skill-icon">✳</div><h3>AI quality testing</h3><p>Prompt validation, response consistency, edge-case exploration, and evaluating AI-generated outputs.</p><div class="skill-tags"><span>Prompt testing</span><span>Hallucination checks</span><span>AI workflows</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Delivery & collaboration</h3><p>Test planning, release validation, clear defect communication, version control and CI workflows.</p><div class="skill-tags"><span>Git</span><span>Jenkins</span><span>GitHub</span></div></article>
+      </div>
+      <p class="small-disclaimer">Keep only tools and techniques you can confidently discuss in an interview. Update this list to match your current hands-on experience.</p>
+    </section>
+
+    <section class="section section-bordered" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">03 / SELECTED WORK</p><h2>Projects that show<br><span>how I think.</span></h2></div><p>Use these cards for real code samples, test artifacts, and case studies. Replace placeholder links before sharing this portfolio.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-art art-blue"><div class="art-window"><div class="art-window-bar"><i></i><i></i><i></i><span>playwright.config</span></div><div class="art-code"><p><em>test</em>('user can sign in', <b>async</b> ({ page }) =&gt; {</p><p>&nbsp; <strong>await</strong> page.goto('/login');</p><p>&nbsp; <strong>await</strong> expect(page).toHaveURL(/dashboard/);</p><p>});</p></div><div class="art-status"><span>✓</span> Sample code illustration</div></div></div>
+            <div class="project-content"><div class="project-meta"><span>01 / UI AUTOMATION</span><span class="project-status">CASE STUDY</span></div><h3>Web UI Automation Framework</h3><p>A portfolio case study demonstrating maintainable end-to-end tests, page-object structure, reusable test utilities, and meaningful assertions.</p><div class="project-tags"><span>Playwright</span><span>JavaScript</span><span>POM</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer" data-placeholder-link>View source <span>↗</span></a><a href="#contact">Discuss approach <span>→</span></a></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-purple"><div class="api-stack"><div><span class="method get">GET</span><b>/api/users</b><span class="response">200 OK</span></div><div><span class="method post">POST</span><b>/api/orders</b><span class="response">201 Created</span></div><div><span class="method get">GET</span><b>/api/orders/:id</b><span class="response">200 OK</span></div></div><span class="art-label">REQUEST → ASSERT → VERIFY</span></div>
+            <div class="project-content"><div class="project-meta"><span>02 / API & DATA</span><span class="project-status">CASE STUDY</span></div><h3>API & Database Validation</h3><p>Example test strategy for validating response codes, required fields, negative cases, data consistency, and database state.</p><div class="project-tags"><span>Postman</span><span>REST</span><span>SQL</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer" data-placeholder-link>View examples <span>↗</span></a><a href="#contact">Discuss approach <span>→</span></a></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-green"><div class="ai-panel"><div class="ai-panel-head"><span class="ai-spark">✳</span><b>AI RESPONSE EVALUATION</b><span class="mono">DEMO</span></div><div class="ai-row"><span>01</span><div><b>Relevance</b><small>Does it answer the prompt?</small></div><span class="ai-check">✓</span></div><div class="ai-row"><span>02</span><div><b>Consistency</b><small>Is the answer stable?</small></div><span class="ai-check">✓</span></div><div class="ai-row"><span>03</span><div><b>Factuality</b><small>Are claims supported?</small></div><span class="ai-check">↗</span></div></div></div>
+            <div class="project-content"><div class="project-meta"><span>03 / AI QUALITY</span><span class="project-status">CASE STUDY</span></div><h3>AI Prompt & Response Testing</h3><p>Show a structured approach to prompt variations, expected behaviour, edge cases, consistency checks, and documenting unexpected outputs.</p><div class="project-tags"><span>AI testing</span><span>Test design</span><span>Evaluation</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer" data-placeholder-link>View examples <span>↗</span></a><a href="#contact">Discuss approach <span>→</span></a></div></div>
+          </article>
+        </div>
+        <div class="notice"><span class="notice-icon">i</span><p><b>Portfolio integrity:</b> the visuals above are illustrations, not proof of completed projects or measured outcomes. Add your own code, screenshots, test results, and accurate project descriptions before presenting them as completed work.</p></div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading"><div><p class="section-kicker">04 / EXPERIENCE</p><h2>Experience & learning</h2></div><p>A concise overview. Add your verified employment dates, responsibilities, and outcomes from your résumé.</p></div>
+      <div class="timeline">
+        <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">CURRENT PROFILE</div><div class="timeline-body"><h3>QA Professional · 8 years of experience</h3><p>Experience across software testing, test automation, API validation, database checks, and AI-related quality activities.</p><p class="timeline-hint">Add your current role, employer, dates, and 2–4 evidence-based responsibilities here.</p></div></div>
+        <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">CERTIFICATION</div><div class="timeline-body"><h3>ISTQB Certified Tester Foundation Level (CTFL)</h3><p>Include your certification details and credential link if you have one available.</p></div></div>
+        <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">RECOGNITION</div><div class="timeline-body"><h3>Professional recognition</h3><p>Add verified awards or recognition, including the year and a brief, accurate explanation. Remove this entry if you do not want to include recognition.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner"><div><p class="section-kicker">05 / GET IN TOUCH</p><h2>Let's make quality<br><span>a team habit.</span></h2><p>Open to conversations about QA engineering, automation, API testing, and AI quality.</p></div><div class="contact-card"><p class="mono">CONNECT WITH ME</p><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" data-placeholder-link><span class="contact-symbol">in</span><span><b>LinkedIn</b><small>Connect professionally</small></span><span class="arrow">↗</span></a><a href="https://github.com/" target="_blank" rel="noreferrer" data-placeholder-link><span class="contact-symbol">⌘</span><span><b>GitHub</b><small>Explore my repositories</small></span><span class="arrow">↗</span></a><a href="mailto:replace-with-your-email@example.com" data-email-link><span class="contact-symbol">@</span><span><b>Email</b><small>Let's start a conversation</small></span><span class="arrow">↗</span></a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">CA</span><span>Chinmay Agrawal<span class="brand-sub">QA ENGINEERING</span></span></a><p>Designed with care. Tested with purpose.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><p class="copyright">© <span id="year"></span> Chinmay Agrawal</p></div></footer>
+</body>
+</html>
