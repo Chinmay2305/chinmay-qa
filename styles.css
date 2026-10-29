@@ -241,3 +241,15 @@
 
 @media (max-width: 900px) { .pcard { flex-basis: calc((100% - 20px) / 2); } }
 @media (max-width: 600px) { .pcard { flex-basis: 85%; } }
+
+/* Skill cards inside the slider */
+.slider-track .skill-card {
+  flex: 0 0 calc((100% - 40px) / 3);
+  scroll-snap-align: start;
+  min-width: 0;
+}
+@media (max-width: 900px) { .slider-track .skill-card { flex-basis: calc((100% - 20px) / 2); } }
+@media (max-width: 600px) { .slider-track .skill-card { flex-basis: 85%; } }
+
+/* A little breathing room between the heading and the slider */
+.skills-slider { margin-top: 8px; }
