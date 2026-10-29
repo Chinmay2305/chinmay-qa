@@ -81,21 +81,74 @@
     <section class="section section-bordered" id="projects">
       <div class="container">
         <div class="section-heading"><div><p class="section-kicker">03 / PROJECTS</p><h2>Projects that show<br><span>how I think.</span></h2></div><p>Use these cards for real code samples, test artifacts, and case studies. Replace placeholder links before sharing this portfolio.</p></div>
-        <div class="projects-grid">
-          <article class="project-card project-featured">
-            <div class="project-art art-blue"><div class="art-window"><div class="art-window-bar"><i></i><i></i><i></i><span>playwright.config</span></div><div class="art-code"><p><em>test</em>('user can sign in', <b>async</b> ({ page }) =&gt; {</p><p>&nbsp; <strong>await</strong> page.goto('/login');</p><p>&nbsp; <strong>await</strong> expect(page).toHaveURL(/dashboard/);</p><p>});</p></div><div class="art-status"><span>✓</span> Sample code illustration</div></div></div>
-            <div class="project-content"><div class="project-meta"><span>01 / UI AUTOMATION</span><span class="project-status">CASE STUDY</span></div><h3>Web UI Automation Framework</h3><p>A portfolio case study demonstrating maintainable end-to-end tests, page-object structure, reusable test utilities, and meaningful assertions.</p><div class="project-tags"><span>Playwright</span><span>JavaScript</span><span>POM</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer" data-placeholder-link>View source <span>↗</span></a><a href="#contact">Discuss approach <span>→</span></a></div></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art art-purple"><div class="api-stack"><div><span class="method get">GET</span><b>/api/users</b><span class="response">200 OK</span></div><div><span class="method post">POST</span><b>/api/orders</b><span class="response">201 Created</span></div><div><span class="method get">GET</span><b>/api/orders/:id</b><span class="response">200 OK</span></div></div><span class="art-label">REQUEST → ASSERT → VERIFY</span></div>
-            <div class="project-content"><div class="project-meta"><span>02 / API & DATA</span><span class="project-status">CASE STUDY</span></div><h3>API & Database Validation</h3><p>Example test strategy for validating response codes, required fields, negative cases, data consistency, and database state.</p><div class="project-tags"><span>Postman</span><span>REST</span><span>SQL</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer" data-placeholder-link>View examples <span>↗</span></a><a href="#contact">Discuss approach <span>→</span></a></div></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art art-green"><div class="ai-panel"><div class="ai-panel-head"><span class="ai-spark">✳</span><b>AI RESPONSE EVALUATION</b><span class="mono">DEMO</span></div><div class="ai-row"><span>01</span><div><b>Relevance</b><small>Does it answer the prompt?</small></div><span class="ai-check">✓</span></div><div class="ai-row"><span>02</span><div><b>Consistency</b><small>Is the answer stable?</small></div><span class="ai-check">✓</span></div><div class="ai-row"><span>03</span><div><b>Factuality</b><small>Are claims supported?</small></div><span class="ai-check">↗</span></div></div></div>
-            <div class="project-content"><div class="project-meta"><span>03 / AI QUALITY</span><span class="project-status">CASE STUDY</span></div><h3>AI Prompt & Response Testing</h3><p>Show a structured approach to prompt variations, expected behaviour, edge cases, consistency checks, and documenting unexpected outputs.</p><div class="project-tags"><span>AI testing</span><span>Test design</span><span>Evaluation</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer" data-placeholder-link>View examples <span>↗</span></a><a href="#contact">Discuss approach <span>→</span></a></div></div>
-          </article>
-        </div>
-        <div class="notice"><span class="notice-icon">i</span><p><b>Portfolio integrity:</b> the visuals above are illustrations, not proof of completed projects or measured outcomes. Add your own code, screenshots, test results, and accurate project descriptions before presenting them as completed work.</p></div>
+        <div class="projects-slider">
+  <div class="slider-controls">
+    <span class="mono slider-count">6 PROJECTS · SWIPE OR USE ARROWS</span>
+    <div>
+      <button type="button" class="slider-btn" data-slide="prev" aria-label="Previous projects">←</button>
+      <button type="button" class="slider-btn" data-slide="next" aria-label="Next projects">→</button>
+    </div>
+  </div>
+
+  <div class="slider-track" id="projectTrack" tabindex="0" aria-label="Projects">
+
+    <article class="pcard">
+      <span class="pnum">01</span>
+      <span class="pcat">ENTERPRISE QA · AVIATION ANALYTICS ERP</span>
+      <h3>Aviation Analytics ERP</h3>
+      <p>Owned end-to-end QA for a client-facing ERP: regression strategy, production-readiness validation before each release, and acceptance criteria agreed with the product owner.</p>
+      <div class="project-tags"><span>Regression</span><span>Release validation</span><span>Automation</span></div>
+      <p class="pnote">Recognised as Best Performer of the Quarter, 2025.</p>
+    </article>
+
+    <article class="pcard">
+      <span class="pnum">02</span>
+      <span class="pcat">MULTI-DOMAIN QA · NIVIDA SOFTWARE</span>
+      <h3>CRM, CMS, ERP, HR-Payroll &amp; eCommerce</h3>
+      <p>Ran QA across 5+ concurrent projects: test plans, regression suites aligned to sprint goals, and automation to cut repetitive manual effort.</p>
+      <div class="project-tags"><span>Test planning</span><span>Regression</span><span>Agile</span></div>
+    </article>
+
+    <article class="pcard">
+      <span class="pnum">03</span>
+      <span class="pcat">AI QUALITY · RESEARCH</span>
+      <h3>Behind Every Great AI Test Is an Even Better Prompt</h3>
+      <p>Research on a prompt-driven, AI-powered testing product. Winner, Tester's Ink Cohort 3 (2026); published on Testers Connect.</p>
+      <div class="project-tags"><span>AI testing</span><span>Prompt design</span></div>
+      <a class="plink" href="https://tinyurl.com/ai-test-prompt" target="_blank" rel="noopener noreferrer">Read the article <span>↗</span></a>
+    </article>
+
+    <article class="pcard">
+      <span class="pnum">04</span>
+      <span class="pcat">EXPLORATORY TESTING · ARTICLE</span>
+      <h3>When Chaos Meets QA</h3>
+      <p>"The Underestimated Monkey that Broke the Calendar": a published piece on monkey testing. Tester's Ink Cohort 2 (2025).</p>
+      <div class="project-tags"><span>Exploratory</span><span>Monkey testing</span></div>
+      <a class="plink" href="https://tinyurl.com/monkey-testing-qa" target="_blank" rel="noopener noreferrer">Read the article <span>↗</span></a>
+    </article>
+
+    <!-- OPTIONAL: only keep once the repo exists and you built it -->
+    <article class="pcard">
+      <span class="pnum">05</span>
+      <span class="pcat">UI AUTOMATION · GITHUB</span>
+      <h3>Playwright Test Framework</h3>
+      <p>Page-object based end-to-end suite against a public demo app, with reusable utilities and CI run.</p>
+      <div class="project-tags"><span>Playwright</span><span>TypeScript</span><span>POM</span></div>
+      <a class="plink" href="https://github.com/Chinmay2305/REPO-NAME" target="_blank" rel="noopener noreferrer">View on GitHub <span>↗</span></a>
+    </article>
+
+    <!-- OPTIONAL: only keep once the collection exists and you built it -->
+    <article class="pcard">
+      <span class="pnum">06</span>
+      <span class="pcat">API &amp; DATABASE · GITHUB</span>
+      <h3>API &amp; DB Validation Suite</h3>
+      <p>Postman collection with status, schema and negative-case checks, plus SQL queries verifying data integrity.</p>
+      <div class="project-tags"><span>Postman</span><span>REST</span><span>SQL</span></div>
+      <a class="plink" href="https://github.com/Chinmay2305/REPO-NAME" target="_blank" rel="noopener noreferrer">View on GitHub <span>↗</span></a>
+    </article>
+
+  </div>
+</div>        
       </div>
     </section>
 
@@ -235,5 +288,29 @@
 
   </main>
   <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">CA</span><span>Chinmay Agrawal<span class="brand-sub">QA ENGINEERING</span></span></a><p>Designed with care. Tested with purpose.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><p class="copyright">© <span id="year"></span> Chinmay Agrawal</p></div></footer>
+
+  <script>
+    (function () {
+  const track = document.getElementById('projectTrack');
+  if (!track) return;
+  const prev = document.querySelector('[data-slide="prev"]');
+  const next = document.querySelector('[data-slide="next"]');
+
+  function step() {
+    const card = track.querySelector('.pcard');
+    return card ? card.getBoundingClientRect().width + 20 : 300;
+  }
+  function update() {
+    prev.disabled = track.scrollLeft <= 4;
+    next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+  }
+
+  prev.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' }));
+  next.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' }));
+  track.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+  </script>
 </body>
 </html>
