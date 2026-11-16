@@ -261,6 +261,8 @@
             placeholder="you@example.com"
             autocomplete="email"
             maxlength="254"
+            pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9\-]+(\.[a-zA-Z0-9\-]+)*\.[a-zA-Z]{2,}"
+            title="Enter a valid email address, for example name@gmail.com"
             required
           >
         </div>
@@ -271,9 +273,12 @@
             type="tel"
             id="contact-phone"
             name="contact_number"
-            placeholder="Your contact number"
+            placeholder="e.g. +91 98765 43210"
             autocomplete="tel"
-            maxlength="25"
+            inputmode="tel"
+            maxlength="20"
+            pattern="[0-9\s\+\(\)\-\.]{7,20}"
+            title="Use only numbers and + ( ) - . characters (7 to 20 characters)"
             required
           >
         </div>
@@ -331,6 +336,41 @@
       update();
     });
   })();
+</script>
+
+<script>
+(function () {
+  const phone = document.getElementById('contact-phone');
+  const email = document.getElementById('contact-email');
+
+  if (phone) {
+    // Remove anything that isn't a digit, space, + ( ) - .
+    phone.addEventListener('input', function () {
+      phone.value = phone.value.replace(/[^0-9\s+().\-]/g, '');
+      phone.setCustomValidity('');
+    });
+
+    phone.addEventListener('blur', function () {
+      const digits = phone.value.replace(/\D/g, '');
+      if (phone.value && (digits.length < 7 || digits.length > 15)) {
+        phone.setCustomValidity('Please enter a valid phone number (7 to 15 digits).');
+      } else {
+        phone.setCustomValidity('');
+      }
+    });
+  }
+
+  if (email) {
+    const emailRe = /^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9\-]+(\.[a-zA-Z0-9\-]+)*\.[a-zA-Z]{2,}$/;
+    email.addEventListener('input', function () {
+      if (email.value && !emailRe.test(email.value)) {
+        email.setCustomValidity('Please enter a valid email, like name@example.com');
+      } else {
+        email.setCustomValidity('');
+      }
+    });
+  }
+})();
 </script>
 </body>
 </html>
