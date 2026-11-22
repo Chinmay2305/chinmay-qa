@@ -8,7 +8,7 @@
   <title>Chinmay Agrawal | Quality Analyst</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:6 SKILL AREAwght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
@@ -19,7 +19,7 @@
       <a class="brand" href="#home" aria-label="Chinmay Agrawal home"><span class="brand-mark">CA</span><span>Chinmay Agrawal<span class="brand-sub">QUALITY ANALYST</span></span></a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span><span></span></button>
       <div class="nav-links" id="nav-links">
-        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#achievements">Achievements</a><a href="#documentation">Test docs</a><a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
       </div>
     </nav>
   </header>
@@ -36,37 +36,26 @@
           <a class="button button-secondary" href="assets/Chinmay_Agrawal_QA_CV.pdf" download>Download resume <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <div class="hero-visual" aria-label="Quality engineering illustration">
-        <div class="visual-grid"></div>
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="core-card">
-          <div class="core-top"><span class="window-dots"><i></i><i></i><i></i></span><span class="mono">quality_check.js</span><span class="live-pill">READY</span></div>
-          <div class="code-lines" aria-hidden="true">
-            <p><span class="code-muted">01</span> <span class="code-purple">test</span>(<span class="code-green">'quality matters'</span>, <span class="code-blue">async</span> () =&gt; {</p>
-            <p><span class="code-muted">02</span> &nbsp; <span class="code-purple">await</span> validateRequirements();</p>
-            <p><span class="code-muted">03</span> &nbsp; <span class="code-purple">await</span> testCriticalFlows();</p>
-            <p><span class="code-muted">04</span> &nbsp; <span class="code-purple">await</span> verifyDataIntegrity();</p>
-            <p><span class="code-muted">05</span> &nbsp; <span class="code-blue">expect</span>(quality).toBe(<span class="code-green">'reliable'</span>);</p>
-            <p><span class="code-muted">06</span> });<span class="cursor"></span></p>
-          </div>
-          <div class="core-footer"><span><i class="check-icon">✓</i> Test thinking: ON</span><span class="mono">CI / QA</span></div>
-        </div>
-        <div class="float-chip chip-top"><span class="chip-icon blue">✓</span><span><b>Risk-based</b><small>Test coverage</small></span></div>
-        <div class="float-chip chip-bottom"><span class="chip-icon purple">⌘</span><span><b>Automation</b><small>Repeatable checks</small></span></div>
-        <div class="visual-caption mono">THINK · TEST · IMPROVE</div>
+      <div class="hero-visual portrait-wrap">
+        <figure class="portrait">
+          <img src="assets/chinmay.jpg" alt="Portrait of Chinmay Agrawal" width="420" height="520" onerror="this.parentNode.classList.add('no-photo')">
+          <span class="portrait-fallback" aria-hidden="true">CA</span>
+        </figure>
+        <div class="float-chip chip-top"><span class="chip-icon blue">8</span><span><b>Years in QA</b><small>Web, mobile, desktop, ERP</small></span></div>
+        <div class="float-chip chip-bottom"><span class="chip-icon purple">✓</span><span><b>ISTQB CTFL</b><small>Certified tester</small></span></div>
       </div>
       <div class="hero-bottom"><span class="mono">BASED IN INDIA · WORKING GLOBALLY</span><a href="#about">SCROLL TO EXPLORE <span>↓</span></a></div>
     </section>
 
     <section class="section section-bordered" id="about">
       <div class="container two-column">
-        <div><p class="section-kicker">01 / ABOUT</p><h2>Curious by nature.<br><span>Thorough by practice.</span></h2></div>
-        <div class="about-copy"><p>I approach quality as more than finding defects. It means understanding user needs, asking better questions, identifying risk early, and giving teams useful evidence to make release decisions.</p><p>My experience spans manual and functional testing, UI automation, API validation, SQL-based data checks, and testing AI-driven workflows. I enjoy building repeatable processes while keeping real user behaviour at the centre.</p><div class="principles"><div><span>01</span><b>Understand the risk</b></div><div><span>02</span><b>Test with purpose</b></div><div><span>03</span><b>Communicate clearly</b></div></div></div>
+        <div><p class="section-kicker">ABOUT</p><h2>Curious by nature.<br><span>Thorough by practice.</span></h2></div>
+        <div class="about-copy"><p>I approach quality as more than finding defects. It means understanding user needs, asking better questions, identifying risk early, and giving teams useful evidence to make release decisions.</p><p>My experience spans manual and functional testing, UI automation, API validation, SQL-based data checks, and testing AI-driven workflows. I enjoy building repeatable processes while keeping real user behaviour at the centre. I use AI to speed up test design and automation, and I review everything it produces myself.</p><div class="principles"><div><span>01</span><b>Understand the risk</b></div><div><span>02</span><b>Test with purpose</b></div><div><span>03</span><b>Communicate clearly</b></div></div></div>
       </div>
     </section>
 
     <section class="section container" id="skills">
-      <div class="section-heading"><div><p class="section-kicker">02 / SKILLS</p><h2>Skills & technologies</h2></div><p>Combination of testing expertise, engineering skills <br>and the right tools for a better product.</p></div>
+      <div class="section-heading"><div><p class="section-kicker">SKILLS</p><h2>Skills & technologies</h2></div><p>Combination of testing expertise, engineering skills <br>and the right tools for a better product.</p></div>
       <div class="projects-slider skills-slider">
   <div class="slider-controls">
     <span class="mono slider-count"></span>
@@ -77,19 +66,20 @@
   </div>
 
   <div class="slider-track" tabindex="0" aria-label="Skills">
-    <article class="skill-card"><div class="skill-icon">◈</div><h3>Testing foundations</h3><p>Manual testing, functional testing, regression, exploratory testing, test design, defect reporting, SDLC / STLC.</p><div class="skill-tags"><span>Test cases</span><span>Risk analysis</span><span>Bug triage</span></div></article>
-    <article class="skill-card"><div class="skill-icon">⌘</div><h3>UI automation</h3><p>Selenium with Java/Python and Playwright; reusable page objects, assertions, and regression checks.</p><div class="skill-tags"><span>Selenium</span><span>Playwright</span><span>TestNG</span><span>POM</span></div></article>
-    <article class="skill-card"><div class="skill-icon">{ }</div><h3>API &amp; backend</h3><p>REST API validation, request/response checks, status and schema assertions, backend and database verification.</p><div class="skill-tags"><span>Postman</span><span>REST API</span><span>SQL</span></div></article>
-    <article class="skill-card"><div class="skill-icon">↗</div><h3>Performance &amp; mobile</h3><p>Performance test concepts and tooling, plus mobile test automation experience.</p><div class="skill-tags"><span>JMeter</span><span>Appium</span></div></article>
-    <article class="skill-card"><div class="skill-icon">✳</div><h3>AI quality testing</h3><p>Prompt validation, response consistency, edge-case exploration, and evaluating AI-generated outputs.</p><div class="skill-tags"><span>Prompt testing</span><span>Hallucination checks</span><span>AI workflows</span></div></article>
-    <article class="skill-card"><div class="skill-icon">⌁</div><h3>Delivery &amp; collaboration</h3><p>Test planning, release validation, clear defect communication, version control and CI workflows.</p><div class="skill-tags"><span>Git</span><span>Jenkins</span><span>GitHub</span></div></article>
+    <article class="skill-card"><div class="skill-icon">◈</div><h3>Testing foundations</h3><p>Manual, functional, regression and exploratory testing; test strategy and planning; defect lifecycle management; acceptance criteria; SDLC / STLC.</p><div class="skill-tags"><span>Test design</span><span>BVA</span><span>Equivalence partitioning</span><span>RTM</span></div></article>
+    <article class="skill-card"><div class="skill-icon">⌘</div><h3>Web &amp; mobile UI automation</h3><p>Selenium WebDriver with Java, Playwright with JS/TS and Appium for mobile; page object model, assertions and lean regression suites.</p><div class="skill-tags"><span>Selenium</span><span>Playwright</span><span>Appium</span><span>TestNG</span><span>Maven</span><span>POM</span></div></article>
+    <article class="skill-card"><div class="skill-icon">{ }</div><h3>API &amp; database</h3><p>REST API validation with Postman and REST Assured, SQL database validation and data integrity checks, and performance testing with JMeter.</p><div class="skill-tags"><span>Postman</span><span>REST Assured</span><span>SQL</span><span>JMeter</span></div></article>
+    <article class="skill-card"><div class="skill-icon">▤</div><h3>Platforms &amp; domains</h3><p>Web, mobile, desktop and ERP applications across aviation analytics, CRM, eCommerce, HR-Payroll, agribusiness and CMS.</p><div class="skill-tags"><span>Web</span><span>Android</span><span>Desktop</span><span>ERP</span></div></article>
+    <article class="skill-card"><div class="skill-icon">✳</div><h3>AI quality testing</h3><p>Prompt validation, response consistency and edge-case exploration, including WhatsApp chatbot testing and evaluating AI-generated outputs.</p><div class="skill-tags"><span>Prompt testing</span><span>Chatbot testing</span><span>Rova AI research</span></div></article>
+    <article class="skill-card"><div class="skill-icon">✦</div><h3>AI-assisted testing</h3><p>Using AI to draft test cases and automation scripts and speed up debugging, then validating every output by hand.</p><div class="skill-tags"><span>ChatGPT</span><span>GitHub Copilot</span><span>Claude</span></div></article>
+    <article class="skill-card"><div class="skill-icon">⌁</div><h3>Delivery &amp; collaboration</h3><p>Agile/Scrum teams, test planning, release validation, clear defect communication, version control and CI pipelines.</p><div class="skill-tags"><span>Jira</span><span>Zoho</span><span>Git</span><span>Jenkins</span></div></article>
   </div>
 </div>
     </section>
 
     <section class="section section-bordered" id="projects">
       <div class="container">
-        <div class="section-heading"><div><p class="section-kicker">03 / PROJECTS</p><h2>Projects where<br><span>my work speaks.</span></h2></div><p>Major projects, each telling a story of curiosity, problem-solving and quality.</p></div>
+        <div class="section-heading"><div><p class="section-kicker">PROJECTS</p><h2>Projects where<br><span>my work speaks.</span></h2></div><p>Selected projects and published work.</p></div>
         <div class="projects-slider">
   <div class="slider-controls">
     <span class="mono slider-count"></span>
@@ -103,14 +93,22 @@
 
 <article class="pcard">
       <span class="pnum">01</span>
+      <span class="pcat">PROMPT &amp; WORKFLOW TESTING</span>
+      <h3>The Agentic AI Playbook</h3>
+      <p>Tested prompt-driven AI workflows in this playbook. Explored input variations, validated response relevance and consistency, and identified hallucinations and unexpected outputs across scenarios.</p>
+      <div class="project-tags"><span>Prompt testing</span><span>Hallucination checks</span><span>Edge cases</span><span>Exploratory</span></div>
+    </article>
+
+<article class="pcard">
+      <span class="pnum">02</span>
       <span class="pcat">IFMA</span>
       <h3>Skill Assessment Platform</h3>
-      <p>Leading QA activities for a platform that helps users evaluate their strengths and weaknesses through self-assessments. Validated assessment workflows, role-based access, organization management, reporting, and score accuracy across key user journeys.</p>
+      <p>QA for a platform that helps users evaluate their strengths and weaknesses through self-assessments. Validated assessment workflows, role-based access, organization management, reporting, and score accuracy across key user journeys.</p>
       <div class="project-tags"><span>Test planning</span><span>Regression</span><span>Agile</span><span>Playwright</span></div>
     </article>
 
     <article class="pcard">
-      <span class="pnum">02</span>
+      <span class="pnum">03</span>
       <span class="pcat">AERFIN</span>
       <h3>Aviation Analytics ERP</h3>
       <p>End-to-end QA for a client-facing ERP: regression strategy, production-readiness validation before each release, and acceptance criteria agreed with the product owner.</p>
@@ -119,49 +117,11 @@
     </article>
 
     <article class="pcard">
-      <span class="pnum">03</span>
+      <span class="pnum">04</span>
       <span class="pcat">MULTI-DOMAIN QA</span>
       <h3>CRM, CMS, ERP, HR-Payroll &amp; eCommerce</h3>
-      <p>Ran QA across 25+ concurrent projects: test plans, regression suites aligned to sprint goals and automation to cut repetitive manual effort.</p>
+      <p>Sole QA alongside developers on three flagship products (HR-Payroll, Agribusiness, ERP) plus several concurrent client projects across multiple domains. Test plans, regression suites and automation to cut repetitive manual effort.</p>
       <div class="project-tags"><span>Test planning</span><span>Regression</span><span>Agile</span></div>
-    </article>
-
-    <article class="pcard">
-      <span class="pnum">04</span>
-      <span class="pcat">AI QUALITY · RESEARCH</span>
-      <h3>Behind Every Great AI Test Is an Even Better Prompt</h3>
-      <p>Research on a prompt-driven, AI-powered testing product. Winner, Tester's Ink Cohort 3 (2026); published on Testers Connect.</p>
-      <div class="project-tags"><span>AI testing</span><span>Prompt design</span></div>
-      <a class="plink" href="https://tinyurl.com/ai-test-prompt" target="_blank" rel="noopener noreferrer">Read the article <span>↗</span></a>
-    </article>
-
-    <article class="pcard">
-      <span class="pnum">05</span>
-      <span class="pcat">EXPLORATORY TESTING · ARTICLE</span>
-      <h3>When Chaos Meets QA</h3>
-      <p>"The Underestimated Monkey that Broke the Calendar": a published piece on monkey testing. Tester's Ink Cohort 2 (2025).</p>
-      <div class="project-tags"><span>Exploratory</span><span>Monkey testing</span></div>
-      <a class="plink" href="https://tinyurl.com/monkey-testing-qa" target="_blank" rel="noopener noreferrer">Read the article <span>↗</span></a>
-    </article>
-
-    <!-- OPTIONAL: only keep once the repo exists and you built it -->
-    <article class="pcard">
-      <span class="pnum">06</span>
-      <span class="pcat">UI AUTOMATION · GITHUB</span>
-      <h3>Playwright Test Framework</h3>
-      <p>Page-object based end-to-end suite against a public demo app, with reusable utilities and CI run.</p>
-      <div class="project-tags"><span>Playwright</span><span>TypeScript</span><span>POM</span></div>
-      <a class="plink" href="https://github.com/Chinmay2305/REPO-NAME" target="_blank" rel="noopener noreferrer">View on GitHub <span>↗</span></a>
-    </article>
-
-    <!-- OPTIONAL: only keep once the collection exists and you built it -->
-    <article class="pcard">
-      <span class="pnum">07</span>
-      <span class="pcat">API &amp; DATABASE · GITHUB</span>
-      <h3>API &amp; DB Validation Suite</h3>
-      <p>Postman collection with status, schema and negative-case checks, plus SQL queries verifying data integrity.</p>
-      <div class="project-tags"><span>Postman</span><span>REST</span><span>SQL</span></div>
-      <a class="plink" href="https://github.com/Chinmay2305/REPO-NAME" target="_blank" rel="noopener noreferrer">View on GitHub <span>↗</span></a>
     </article>
 
   </div>
@@ -170,12 +130,40 @@
     </section>
 
     <section class="section container" id="experience">
-      <div class="section-heading"><div><p class="section-kicker">04 / EXPERIENCE</p><h2>Experience & learning</h2></div><p>A concise overview. Add your verified employment dates, responsibilities, and outcomes from your résumé.</p></div>
-      <div class="timeline">
-        <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">CURRENT PROFILE</div><div class="timeline-body"><h3>QA Professional · 8 years of experience</h3><p>Experience across software testing, test automation, API validation, database checks, and AI-related quality activities.</p><p class="timeline-hint">Add your current role, employer, dates, and 2–4 evidence-based responsibilities here.</p></div></div>
-        <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">CERTIFICATION</div><div class="timeline-body"><h3>ISTQB Certified Tester Foundation Level (CTFL)</h3><p>Include your certification details and credential link if you have one available.</p></div></div>
-        <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">RECOGNITION</div><div class="timeline-body"><h3>Professional recognition</h3><p>Add verified awards or recognition, including the year and a brief, accurate explanation. Remove this entry if you do not want to include recognition.</p></div></div>
+      <div class="section-heading"><div><p class="section-kicker">EXPERIENCE</p><h2>Where I've worked</h2></div><p>Roles, teams and what I owned.</p></div>
+      <div class="timeline"><div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">JUN 2026 – OCT 2026</div><div class="timeline-body"><h3>Senior QA</h3><p class="company">Open Eyes Technologies</p><ul><li>QA for the second version of IFMA across ten 2-week sprints; 200–250 bugs reported and fixed.</li></ul></div></div><div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">SEP 2024 – MAY 2026</div><div class="timeline-body"><h3>Senior QA Analyst</h3><p class="company">AV DEVS Solutions</p><ul><li>Owned QA for an aviation analytics ERP across 2–3 major releases over 21 months, including all client communication.</li><li>Automated about 70–80% of ~15 modules, cutting test time by roughly 50–60%.</li></ul></div></div><div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">2021 – 2024</div><div class="timeline-body"><h3>QA Analyst</h3><p class="company">Nivida Software</p><ul><li>Sole QA with 2–3 developers on three flagship products (HR-Payroll, Agribusiness, ERP) and 5–6 concurrent client projects.</li><li>Mentored 2 junior QAs; achieved zero-defect production releases on 2–3 projects.</li></ul></div></div></div>
+      <p class="earlier">Earlier: QA Engineer, V R Software Systems (2015–2018)</p>
+    </section>
+
+    <section class="section section-bordered" id="achievements">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">ACHIEVEMENTS</p><h2>Recognition &amp; credentials</h2></div><p>Awards, publications and certifications.</p></div>
+        <div class="ach-grid">
+          <article class="ach"><span class="ach-year">2026</span><h3>Winner, Tester's Ink Cohort 3</h3><p>Testers Connect. Research on Rova AI: why prompt design decides the quality of AI-generated tests.</p><a class="plink" href="https://tinyurl.com/ai-test-prompt" target="_blank" rel="noopener noreferrer">Read the article <span>↗</span></a></article>
+          <article class="ach"><span class="ach-year">2025</span><h3>Best Performer of the Quarter</h3><p>Recognised for QA work on the aviation analytics ERP.</p></article>
+          <article class="ach"><span class="ach-year">2025</span><h3>Published, Tester's Ink Cohort 2</h3><p>"The Underestimated Monkey that Broke the Calendar", an article on monkey testing, published on Testers Connect.</p><a class="plink" href="https://tinyurl.com/monkey-testing-qa" target="_blank" rel="noopener noreferrer">Read the article <span>↗</span></a></article>
+          <article class="ach"><span class="ach-year">Certified</span><h3>ISTQB CTFL</h3><p>Certified Tester, Foundation Level.</p></article>
+        </div>
       </div>
+    </section>
+
+    <section class="section container" id="documentation">
+      <div class="section-heading"><div><p class="section-kicker">TEST DOCUMENTATION</p><h2>How I document testing</h2></div><p>Demonstration samples on a demo app. No client data.</p></div>
+      <div class="doc-cards"><button type="button" class="doc-card" data-open="doc-m0"><span class="doc-card-title">Sample QA document</span><span class="doc-card-sub">Living project document · 9 sections</span><span class="doc-snap" aria-hidden="true"></span><span class="doc-card-cta">Open ⤢</span></button><button type="button" class="doc-card" data-open="doc-m1"><span class="doc-card-title">Functional test cases</span><span class="doc-card-sub">5 sample cases · priority and result</span><span class="doc-snap" aria-hidden="true"></span><span class="doc-card-cta">Open ⤢</span></button><button type="button" class="doc-card" data-open="doc-m2"><span class="doc-card-title">Sample bug reports</span><span class="doc-card-sub">3 sample defects · severity and status</span><span class="doc-snap" aria-hidden="true"></span><span class="doc-card-cta">Open ⤢</span></button></div>
+      <dialog id="doc-m0" class="doc-modal" aria-label="Sample QA document"><button type="button" class="doc-close" aria-label="Close">×</button><div class="doc-box"><h3>Sample QA document</h3>
+        <p class="doc-sub">A living project document that QA maintains from kickoff to release, so anyone can understand the product without depending on developers or the PM. Demo content only.</p>
+        <div class="qa-doc">
+          <div class="qa-meta"><div><small>PROJECT</small><b>TaskFlow (demo)</b></div><div><small>VERSION</small><b>1.6</b></div><div><small>MAINTAINED BY</small><b>QA</b></div><div><small>STATUS</small><b>Active</b></div></div>
+          <div class="qa-body">
+            <div class="qa-toc" role="tablist" aria-label="Document sections"><button type="button" role="tab" aria-selected="true" aria-controls="qa-p0" id="qa-t0"><span>01</span>Overview</button><button type="button" role="tab" aria-selected="false" aria-controls="qa-p1" id="qa-t1"><span>02</span>Roles &amp; permissions</button><button type="button" role="tab" aria-selected="false" aria-controls="qa-p2" id="qa-t2"><span>03</span>Modules &amp; flows</button><button type="button" role="tab" aria-selected="false" aria-controls="qa-p3" id="qa-t3"><span>04</span>Business rules</button><button type="button" role="tab" aria-selected="false" aria-controls="qa-p4" id="qa-t4"><span>05</span>Environments &amp; data</button><button type="button" role="tab" aria-selected="false" aria-controls="qa-p5" id="qa-t5"><span>06</span>Integrations &amp; APIs</button><button type="button" role="tab" aria-selected="false" aria-controls="qa-p6" id="qa-t6"><span>07</span>Test strategy</button><button type="button" role="tab" aria-selected="false" aria-controls="qa-p7" id="qa-t7"><span>08</span>Risks &amp; issues</button><button type="button" role="tab" aria-selected="false" aria-controls="qa-p8" id="qa-t8"><span>09</span>Revision history</button></div>
+            <div class="qa-pages"><article class="qa-page" role="tabpanel" id="qa-p0" aria-labelledby="qa-t0"><h4>1. Overview</h4><p>TaskFlow (demo app) is a web application for creating, organising and completing personal tasks. This document is the single source of truth for QA: how the product works, how it is tested, and what is currently at risk.</p><h5>Scope of release 1.6</h5><ul><li>Task create, edit, delete, complete</li><li>Filters by status and priority</li><li>Email-based password reset</li><li>Admin user management</li></ul><h5>Stack</h5><p>React front end, REST API, PostgreSQL database, hosted on cloud staging and production.</p></article><article class="qa-page" role="tabpanel" id="qa-p1" aria-labelledby="qa-t1" hidden><h4>2. Roles &amp; permissions</h4><p>Access is role-based. Every test scenario states the role it runs under.</p><ul><li><b>Guest:</b> view landing page, sign up, log in</li><li><b>User:</b> full control of own tasks only; cannot see other users' data</li><li><b>Admin:</b> all User rights, plus view, disable and delete user accounts</li></ul><h5>Verification points</h5><ul><li>A User opening an Admin URL gets a 403 page</li><li>A disabled account cannot log in and sees a clear message</li></ul></article><article class="qa-page" role="tabpanel" id="qa-p2" aria-labelledby="qa-t2" hidden><h4>3. Modules &amp; flows</h4><h5>M1 · Authentication</h5><ol><li>Open Sign up and submit name, email, password</li><li>Verify account is created and user lands on the dashboard</li><li>Log out and log in with the same credentials</li></ol><h5>M2 · Tasks</h5><ol><li>Create a task with title, priority and due date</li><li>Edit, mark complete, then delete it</li><li>Confirm the record count updates on the dashboard</li></ol><h5>M3 · Filters &amp; search</h5><p>Status and priority filters combine with AND logic. Search matches task titles only.</p></article><article class="qa-page" role="tabpanel" id="qa-p3" aria-labelledby="qa-t3" hidden><h4>4. Business rules</h4><p>Rules the product must enforce. Test cases reference these IDs.</p><ul><li><b>BR-01</b> Password: minimum 8 characters, at least one number</li><li><b>BR-02</b> Task title: required, maximum 100 characters</li><li><b>BR-03</b> Due date cannot be earlier than today</li><li><b>BR-04</b> Five failed logins lock the account for 15 minutes</li><li><b>BR-05</b> Deleted tasks are soft-deleted and kept for 30 days</li></ul></article><article class="qa-page" role="tabpanel" id="qa-p4" aria-labelledby="qa-t4" hidden><h4>5. Environments &amp; data</h4><ul><li><b>QA:</b> latest build, reset nightly, used for daily testing</li><li><b>Staging:</b> release candidate, production-like data, used for regression and sign-off</li><li><b>Production:</b> read-only checks after release</li></ul><h5>Test accounts</h5><ul><li>One account per role (Guest needs none)</li><li>Credentials are kept in the team vault, never in this document</li></ul><h5>Data reset</h5><p>QA data resets at 02:00. Re-seed script and seed data are version-controlled.</p></article><article class="qa-page" role="tabpanel" id="qa-p5" aria-labelledby="qa-t5" hidden><h4>6. Integrations &amp; APIs</h4><h5>Key endpoints</h5><ul><li><b>POST</b> /auth/login · returns token and role</li><li><b>GET</b> /tasks?status=&amp;priority= · list own tasks</li><li><b>POST</b> /tasks · create, validates BR-02 and BR-03</li><li><b>DELETE</b> /tasks/:id · soft delete per BR-05</li></ul><h5>External services</h5><p>Email provider for password reset. Sandbox mode is used on QA, so no real emails are sent.</p></article><article class="qa-page" role="tabpanel" id="qa-p6" aria-labelledby="qa-t6" hidden><h4>7. Test strategy</h4><h5>In scope</h5><ul><li>Functional, regression, cross-browser (Chrome, Firefox, Edge) and API testing</li><li>Automated regression of the core flows in M1 and M2</li></ul><h5>Out of scope</h5><ul><li>Load testing of production</li><li>Third-party email delivery</li></ul><h5>Entry and exit criteria</h5><ul><li>Entry: build deployed to QA, smoke test passed</li><li>Exit: no open Critical or High defects, all planned regression tests passed</li></ul></article><article class="qa-page" role="tabpanel" id="qa-p7" aria-labelledby="qa-t7" hidden><h4>8. Risks &amp; issues</h4><ul><li><b>High</b> · Authentication and role checks: security impact. Mitigation: automated permission tests every build</li><li><b>Medium</b> · Filter combinations: many untested paths. Mitigation: pairwise test design</li><li><b>Low</b> · Date handling across time zones. Mitigation: boundary tests</li></ul><h5>Open defects</h5><ul><li>BUG-001 · Weak password accepted on sign up (High)</li><li>BUG-003 · Duplicate entry on double-click (Low, awaiting retest)</li></ul></article><article class="qa-page" role="tabpanel" id="qa-p8" aria-labelledby="qa-t8" hidden><h4>9. Revision history</h4><p>Updated by QA after every sprint and release.</p><ul><li><b>v1.6</b> · Added BR-05 and soft-delete API behaviour</li><li><b>v1.5</b> · Added Admin permissions and account lock rule</li><li><b>v1.2</b> · Added environments, data reset and test strategy</li><li><b>v1.0</b> · Initial version: overview, roles, core flows</li></ul></article></div>
+          </div>
+        </div>
+      </div></dialog><dialog id="doc-m1" class="doc-modal" aria-label="Functional test cases"><button type="button" class="doc-close" aria-label="Close">×</button><div class="doc-box"><h3>Functional test cases</h3>
+        <div class="doc-scroll"><table class="doc-table"><thead><tr><th>ID</th><th>Feature</th><th>Test case</th><th>Priority</th><th>Expected result</th><th>Result</th></tr></thead><tbody><tr><td class="mono">FTC-001</td><td>User authentication</td><td><b>Login with valid credentials</b></td><td><span class="pill high">High</span></td><td>User is authenticated and redirected to the dashboard.</td><td><span class="pill pass">Pass</span></td></tr><tr><td class="mono">FTC-002</td><td>User authentication</td><td><b>Login with invalid password</b></td><td><span class="pill high">High</span></td><td>Login fails with an error message. User stays on the login page.</td><td><span class="pill pass">Pass</span></td></tr><tr><td class="mono">FTC-003</td><td>Form validation</td><td><b>Submit form with empty required fields</b></td><td><span class="pill medium">Medium</span></td><td>Submission is blocked. Validation messages appear next to each required field.</td><td><span class="pill pass">Pass</span></td></tr><tr><td class="mono">FTC-004</td><td>Data display</td><td><b>Verify table shows the correct record count</b></td><td><span class="pill medium">Medium</span></td><td>Exactly 10 records are shown, matching the inserted test data.</td><td><span class="pill pass">Pass</span></td></tr><tr><td class="mono">FTC-005</td><td>Sign up</td><td><b>Sign up with a 1-character password</b></td><td><span class="pill high">High</span></td><td>Sign up is rejected with a minimum-length error.</td><td><span class="pill fail">Fail</span></td></tr></tbody></table></div>
+      </div></dialog><dialog id="doc-m2" class="doc-modal" aria-label="Sample bug reports"><button type="button" class="doc-close" aria-label="Close">×</button><div class="doc-box"><h3>Sample bug reports</h3>
+        <div class="doc-scroll"><table class="doc-table"><thead><tr><th>ID</th><th>Title</th><th>Severity</th><th>Steps to reproduce</th><th>Expected vs actual</th><th>Status</th></tr></thead><tbody><tr><td class="mono">BUG-001</td><td><b>Weak password accepted on sign up</b></td><td><span class="pill high">High</span></td><td>1. Open Sign up. 2. Enter "a" as the password. 3. Submit.</td><td>Expected: minimum-length error. Actual: account is created.</td><td><span class="pill open">Open</span></td></tr><tr><td class="mono">BUG-002</td><td><b>Last record missing from results table</b></td><td><span class="pill medium">Medium</span></td><td>1. Insert 10 records. 2. Open the records page.</td><td>Expected: 10 rows. Actual: 9 rows shown.</td><td><span class="pill fixed">Fixed</span></td></tr><tr><td class="mono">BUG-003</td><td><b>Duplicate entry on double-click of Submit</b></td><td><span class="pill low">Low</span></td><td>1. Fill the form. 2. Double-click Submit.</td><td>Expected: one entry. Actual: two identical entries.</td><td><span class="pill verified">Verified</span></td></tr></tbody></table></div>
+      </div></dialog>
     </section>
 
     
@@ -184,7 +172,7 @@
 
     <!-- LEFT: SOCIAL LINKS -->
     <div class="contact-left">
-      <p class="section-kicker">05 / CONTACT</p>
+      <p class="section-kicker">CONTACT</p>
       <h2>Let's connect and<br><span>talk quality.</span></h2>
       <p class="contact-intro">
         Open to conversations about QA engineering, automation,
@@ -212,7 +200,8 @@
           <span class="arrow">↗</span>
         </a>
 
-        <a href="mailto:chinmay230587@gmail.com">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chinmay230587@gmail.com&su=Hello%20Chinmay"
+           target="_blank" rel="noopener noreferrer">
           <span class="contact-symbol">@</span>
           <span>
             <b>Email</b>
@@ -228,7 +217,6 @@
       <div class="form-heading">
         <p class="mono">HAVE A QUESTION?</p>
         <h3>Send me a message<span>.</span></h3>
-        <p>Fill in the details below and I'll get back to you.</p>
       </div>
 
       <form
@@ -312,6 +300,9 @@
   <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">CA</span><span>Chinmay Agrawal<span class="brand-sub">QA ENGINEERING</span></span></a><p>Designed with care. Tested with purpose.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><p class="copyright">© <span id="year"></span> Chinmay Agrawal</p></div></footer>
 
   <script>
+  (function(){document.querySelectorAll('.qa-doc').forEach(function(d){var t=d.querySelectorAll('[role=tab]'),p=d.querySelectorAll('.qa-page');t.forEach(function(b,i){b.addEventListener('click',function(){t.forEach(function(x,j){x.setAttribute('aria-selected',j===i);p[j].hidden=j!==i;});});});});})();
+  </script>
+  <script>
   (function () {
     document.querySelectorAll('.projects-slider').forEach(function (slider) {
       const track = slider.querySelector('.slider-track');
@@ -372,5 +363,27 @@
   }
 })();
 </script>
+<script>
+  (function(){
+    var snaps=[];
+    document.querySelectorAll('.doc-card').forEach(function(card){
+      var dlg=document.getElementById(card.dataset.open);
+      var src=dlg.querySelector('.qa-doc')||dlg.querySelector('.doc-scroll');
+      var snap=card.querySelector('.doc-snap');
+      var c=src.cloneNode(true);
+      c.querySelectorAll('[id]').forEach(function(n){n.removeAttribute('id');});
+      c.setAttribute('inert','');c.style.width='900px';c.style.margin='0';
+      snap.appendChild(c);snaps.push(snap);
+      card.addEventListener('click',function(){dlg.showModal();document.documentElement.style.overflow='hidden';});
+    });
+    document.querySelectorAll('.doc-modal').forEach(function(d){
+      d.addEventListener('click',function(e){if(e.target===d)d.close();});
+      d.querySelector('.doc-close').addEventListener('click',function(){d.close();});
+      d.addEventListener('close',function(){document.documentElement.style.overflow='';});
+    });
+    function fit(){snaps.forEach(function(s){var c=s.firstElementChild;c.style.transform='scale('+(s.clientWidth/900)+')';});}
+    fit();window.addEventListener('resize',fit);
+  })();
+  </script>
 </body>
 </html>
