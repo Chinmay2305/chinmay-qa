@@ -396,3 +396,7 @@
 .hero{min-height:0;padding-bottom:40px}
 .about-section,#about{padding-top:48px}
 @media(max-width:680px){.section{padding-block:40px}.contact-section{padding:40px 0}}
+/* ---- mobile only: badges overlap the lower photo, never the head ---- */
+@media(max-width:680px){
+  .portrait-wrap .chip-top{top:auto;bottom:calc(7% + 68px);right:0}
+}
